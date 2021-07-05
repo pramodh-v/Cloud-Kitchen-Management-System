@@ -1,0 +1,125 @@
+.header { 
+	padding:10px;
+	height: 10%;
+	width: 100%;
+  background: transparent;
+	background-color:rgba(26, 24, 22, 0.85);  }
+  .topbuttons
+  {
+    display: inline-block;
+  }
+  .topcorner
+  {
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+  .heading
+  {
+    top: 50px;
+    color: white;
+    font-size: 35px;
+  }
+.buttons
+{
+	display: flex;
+	padding:20px;
+	width:20%;
+	float: left;
+	-ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+.content { 
+  background-image: url("chefs-bg.jpg");
+	width: 100%;
+	padding: 20px;
+	justify-content: center;
+}
+.content::before {
+  background: rgba(255, 255, 255, 0.1);
+  z-index: -1;
+}
+
+button{
+	display:block;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    background: #ffb03b;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+body {
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+}
+th,tr,td{
+    text-align: center;
+    color: #ffb03b;
+    border: 1px solid white;
+    border-color: white;
+    padding: 5px;
+    height: 50px;
+}
+table{
+  background-color: #35322D;
+	width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+input,
+textarea {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 10px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-group {
+  clear: both;
+  margin: 15px 0;
+  position: relative;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  height: 38px;
+  padding: 0;
+  width: 38px;
+  position: relative;
+}
+
+.input-group .quantity-field {
+  position: relative;
+  height: 38px;
+  text-align: center;
+  width: 62px;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 0 5px;
+  resize: vertical;
+}
+
+.button-plus {
+  left: -13px;
+}
+button:hover {
+  background-color:#EC8829;
+  color: white;
+}
+button:active {
+  position:relative;
+  background-color:#EC8829;
+  top:1px;
+}
